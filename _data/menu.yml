@@ -1,0 +1,31 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: <a href='https://github.com/injuhan'>github</a>, injuhan
+      - title: email, haninjuin@gmail.com
+
+  - title: kiwi
+    post_list:
+      category: kiwi
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: diary
+    post_list:
+      category: diary
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: plan
+    post_list:
+      category: plan
+      show_more: true
+      show_more_text: See more posts...
+      show_more_url: haninju-archive.html
