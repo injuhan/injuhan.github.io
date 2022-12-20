@@ -24,6 +24,12 @@ entries:
           show_more: true
           show_more_text: See more posts...
           show_more_url: haninju-archive.html
+      - title: gson
+        post_list:
+          category: gson
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: haninju-archive.html
       - title: database
         post_list:
           category: db
