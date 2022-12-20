@@ -1,5 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-20T22:23:52+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
-</subtitle><author><name>Inju Han</name></author><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-2.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-20T21:45:01+09:00</published><updated>2022-12-20T21:45:01+09:00</updated><id>http://localhost:4000/diary-2</id><content type="html" xml:base="http://localhost:4000/diary-2.html"><![CDATA[<p><br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-20T23:21:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
+</subtitle><author><name>Inju Han</name></author><entry><title type="html">start to read gson</title><link href="http://localhost:4000/start-to-read-gson.html" rel="alternate" type="text/html" title="start to read gson" /><published>2022-12-20T22:34:01+09:00</published><updated>2022-12-20T22:34:01+09:00</updated><id>http://localhost:4000/start-to-read-gson</id><content type="html" xml:base="http://localhost:4000/start-to-read-gson.html"><![CDATA[<p><br />
+Tables of contents</p>
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">git clone gson</code></li>
+  <li>open in IntelliJ</li>
+  <li>solve red underline, error</li>
+  <li>pick a starting class</li>
+  <li>constructor, fromJson()</li>
+</ol>
+
+<hr />
+<h3 id="1-git-clone-gson">1. git clone gson</h3>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/google/gson.git
+</code></pre></div></div>
+<ul>
+  <li>난 google gson repository 를 fork 하고 내 repo 를 git clone 했다.</li>
+  <li>코드를 읽다 혹시 contribution 할 거리를 발견할 경우를 대비하기 위함이었다.</li>
+</ul>
+
+<h3 id="2-open-in-intellij">2. open in IntelliJ</h3>
+<p><img src="https://user-images.githubusercontent.com/120941926/208683382-c37faef4-9ed9-4d02-8b2b-0a674c53eee8.png" alt="open-in-intellij" /></p>
+<ul>
+  <li>clone 받은 폴더를 open 한다.</li>
+  <li>멀티모듈 구조로 되어 있기 때문에 각 모듈이 아니라 전체 폴더를 open 해야 한다.</li>
+</ul>
+
+<h3 id="3-solve-red-underline-error">3. solve red underline, error</h3>
+<p><img src="https://user-images.githubusercontent.com/120941926/208683848-f1899463-a372-4976-9f43-bbb57714f596.png" alt="start-to-read-gson-2-error" /></p>
+<ul>
+  <li>gson 모듈을 보면 import 문을 비롯한 몇 군데에 빨간 줄이 보인다.</li>
+  <li><code class="language-plaintext highlighter-rouge">import com.google.gson.internal.GsonBuildConfig;</code></li>
+</ul>
+
+<p><br />
+[problem]</p>
+<ul>
+  <li>GsonBuildConfig 클래스는 java-templates 폴더 하위에 있다.</li>
+  <li>분명 클래스 파일이 존재하는데 왜 못 찾을까?</li>
+  <li>IntelliJ 에서 해당 디렉토리를 소스 루트로 인식하지 않기 때문인 듯하다.</li>
+  <li>(gson 무한신뢰 및 경험으로 코드가 잘못되었을 것이라는 생각은 하지 않았음)</li>
+</ul>
+
+<p><br />
+[how to solve]</p>
+<ul>
+  <li>IntelliJ 가 해당 디렉토리를 소스 루트로 인식할 수 있도록 도와줘야 한다.</li>
+  <li>java-templates 폴더 우클릭, Mark Directory as - Sources Root</li>
+  <li>이렇게 하면 java-templates 폴더 아이콘 색이 바뀌면서 빨간 줄이 없어진다.</li>
+</ul>
+
+<h3 id="4-pick-a-starting-class">4. pick a starting class</h3>
+<ul>
+  <li>gson 코드에는 4개의 모듈이 존재했다. <br />
+1) extras <br />
+2) gson <br />
+3) metrics <br />
+4) proto <br /></li>
+  <li>이름이 눈에 익은 proto 모듈부터 보고 싶었지만, gson의 시작점을 찾고 싶었다.</li>
+  <li>gson 모듈에 들어가 Gson 클래스를 열었다.</li>
+  <li><code class="language-plaintext highlighter-rouge">This is the main class for using Gson.</code></li>
+  <li>그렇지, 모든 코드의 시작은 main class. 시작점 찾았다!</li>
+</ul>
+
+<h3 id="5-constructor-fromjson">5. constructor, fromJson()</h3>
+<ul>
+  <li>생성자로 시작해볼까?
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public Gson() {
+this(Excluder.DEFAULT, DEFAULT_FIELD_NAMING_STRATEGY,
+        Collections.&lt;Type, InstanceCreator&lt;?&gt;&gt;emptyMap(), DEFAULT_SERIALIZE_NULLS,
+        DEFAULT_COMPLEX_MAP_KEYS, DEFAULT_JSON_NON_EXECUTABLE, DEFAULT_ESCAPE_HTML,
+        DEFAULT_PRETTY_PRINT, DEFAULT_LENIENT, DEFAULT_SPECIALIZE_FLOAT_VALUES,
+        DEFAULT_USE_JDK_UNSAFE,
+        LongSerializationPolicy.DEFAULT, DEFAULT_DATE_PATTERN, DateFormat.DEFAULT, DateFormat.DEFAULT,
+        Collections.&lt;TypeAdapterFactory&gt;emptyList(), Collections.&lt;TypeAdapterFactory&gt;emptyList(),
+        Collections.&lt;TypeAdapterFactory&gt;emptyList(), DEFAULT_OBJECT_TO_NUMBER_STRATEGY,
+        DEFAULT_NUMBER_TO_NUMBER_STRATEGY,
+        Collections.&lt;ReflectionAccessFilter&gt;emptyList());
+}
+</code></pre></div>    </div>
+  </li>
+  <li>예상은 했지만 변수들이 너무너무 많다.</li>
+  <li>변수의 의미를 파악하기보다는 눈에 익은 메서드부터 찾아가자.</li>
+  <li>gson을 사용하면서 수도 없이 봤고 이용했던 fromJson() 을 찾았다!
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>public &lt;T&gt; T fromJson(String json, Class&lt;T&gt; classOfT) throws JsonSyntaxException {
+      T object = fromJson(json, TypeToken.get(classOfT));
+      return Primitives.wrap(classOfT).cast(object);
+      }
+</code></pre></div>    </div>
+  </li>
+  <li>fromJson 메서드가 오버라이딩된 것이 보인다.</li>
+  <li>타고 타고 들어가보니 한두 개가 아니다!</li>
+  <li>역시 너무 매력적인 코드다.</li>
+  <li>하지만 관계를 파악하려면 시간을 들여야 하므로 오늘의 코드 한줄 읽기는 여기서 끝!</li>
+</ul>]]></content><author><name>Inju Han</name></author><category term="gson" /><summary type="html"><![CDATA[Tables of contents git clone gson open in IntelliJ solve red underline, error pick a starting class constructor, fromJson()]]></summary></entry><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-2.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-20T21:45:01+09:00</published><updated>2022-12-20T21:45:01+09:00</updated><id>http://localhost:4000/diary-2</id><content type="html" xml:base="http://localhost:4000/diary-2.html"><![CDATA[<p><br />
 오늘은 <del>(어제 포스트를 영어로 바꾸는 작업을 해서 피곤하므로)</del> 한글로 써야겠다. <br /></p>
 
 <p>일요일에 ‘프로그래머 열정을 말하다’를 읽으며 성장하는 프로그래머가 되기로 다짐했는데, <br />
