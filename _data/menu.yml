@@ -6,14 +6,7 @@ entries:
     entries:
       - title: <a href='https://github.com/injuhan'>github</a>, injuhan
       - title: email, haninjuin@gmail.com
-
-  - title: kiwi
-    post_list:
-      category: kiwi
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
+      - title: 2022-12-19 <a href='welcome-to-kiwi.html'>welcome-to-kiwi</a>
 
   - title: diary
     post_list:
@@ -23,9 +16,17 @@ entries:
       show_more_text: See archive...
       show_more_url: archive.html
 
-  - title: plan
-    post_list:
-      category: plan
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: haninju-archive.html
+  - title: study
+    entries:
+      - title: java
+        post_list:
+          category: java
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: haninju-archive.html
+      - title: database
+        post_list:
+          category: db
+          show_more: true
+          show_more_text: See more posts...
+          show_more_url: haninju-archive.html
