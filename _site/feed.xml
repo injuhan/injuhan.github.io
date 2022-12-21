@@ -1,5 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-20T23:21:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
-</subtitle><author><name>Inju Han</name></author><entry><title type="html">start to read gson</title><link href="http://localhost:4000/start-to-read-gson.html" rel="alternate" type="text/html" title="start to read gson" /><published>2022-12-20T22:34:01+09:00</published><updated>2022-12-20T22:34:01+09:00</updated><id>http://localhost:4000/start-to-read-gson</id><content type="html" xml:base="http://localhost:4000/start-to-read-gson.html"><![CDATA[<p><br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-22T01:29:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
+</subtitle><author><name>Inju Han</name></author><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-3.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-21T23:59:59+09:00</published><updated>2022-12-21T23:59:59+09:00</updated><id>http://localhost:4000/diary-3</id><content type="html" xml:base="http://localhost:4000/diary-3.html"><![CDATA[<p><br />
+I am very upset.<br />
+Because one square of my github lawn became empty. <br /></p>
+
+<p>I have tried to up new server for affiliate system since last week at work.
+However, the work has been never easy 
+because we needed to upgrade java and spring version. <br /></p>
+
+<p>We have been using java 11 and spring 2.x.x to develop servers
+but my boss decided to upgrade those development tools’ version by this chance. <br /></p>
+
+<p>Our team don’t have enough back-end software engineers.
+That’s why The development for new affiliate system was taken charge to just me. <br /></p>
+
+<p>I started my career as a software engineer just 6 months ago.
+Are there any companies that entrust one junior developer with a big, important job? Really? <br /></p>
+
+<p>It isn’t that I don’t believe in my ability but, it’s too harsh!
+Besides, I have to finish all of this by the end of February… <br /></p>
+
+<p>Of course, since the approximate duration can only be calculated after starting the design, 
+it is not yet possible to judge whether the period, two months, is appropriate or too short. <br /></p>
+
+<p>This is why I don’t think it’s time to set a deadline yet. <br /></p>
+
+<p>What if I cannot finish it by the end of February? <br /></p>
+
+<p>I am really making an effort for up new server,
+but I’m like a freshman in the world of software engineering, 
+so I’m not sure if I’ll be able to finish it in the time frame. <br /></p>
+
+<p>Why can’t I set a deadline myself?
+Are other developers constantly working on tight schedules and unable to set their own deadlines? <br /></p>
+
+<p>I think <code class="language-plaintext highlighter-rouge">tight schedules lead to overtime, and overtime undermines personal development</code>. <br /></p>
+
+<p>For this reason, a section of my github lawn has become empty, and because of that, 
+I have to go to sleep a little sadly today. <br /></p>
+
+<p>Oh, of course I should read a line of gson code and a line of a book before going to sleep.
+No matter how upset I am, I have to study.</p>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[I am very upset. Because one square of my github lawn became empty.]]></summary></entry><entry><title type="html">start to read gson</title><link href="http://localhost:4000/start-to-read-gson.html" rel="alternate" type="text/html" title="start to read gson" /><published>2022-12-20T22:34:01+09:00</published><updated>2022-12-20T22:34:01+09:00</updated><id>http://localhost:4000/start-to-read-gson</id><content type="html" xml:base="http://localhost:4000/start-to-read-gson.html"><![CDATA[<p><br />
 Tables of contents</p>
 <ol>
   <li><code class="language-plaintext highlighter-rouge">git clone gson</code></li>
