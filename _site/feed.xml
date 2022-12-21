@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-22T01:29:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-22T01:33:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
 </subtitle><author><name>Inju Han</name></author><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-3.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-21T23:59:59+09:00</published><updated>2022-12-21T23:59:59+09:00</updated><id>http://localhost:4000/diary-3</id><content type="html" xml:base="http://localhost:4000/diary-3.html"><![CDATA[<p><br />
 I am very upset.<br />
 Because one square of my github lawn became empty. <br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/120941926/208955967-b527cbb6-a2db-4632-a0db-d6f0dbb89606.png" alt="github" /></p>
 
 <p>I have tried to up new server for affiliate system since last week at work.
 However, the work has been never easy 
@@ -38,8 +40,9 @@ Are other developers constantly working on tight schedules and unable to set the
 <p>For this reason, a section of my github lawn has become empty, and because of that, 
 I have to go to sleep a little sadly today. <br /></p>
 
-<p>Oh, of course I should read a line of gson code and a line of a book before going to sleep.
-No matter how upset I am, I have to study.</p>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[I am very upset. Because one square of my github lawn became empty.]]></summary></entry><entry><title type="html">start to read gson</title><link href="http://localhost:4000/start-to-read-gson.html" rel="alternate" type="text/html" title="start to read gson" /><published>2022-12-20T22:34:01+09:00</published><updated>2022-12-20T22:34:01+09:00</updated><id>http://localhost:4000/start-to-read-gson</id><content type="html" xml:base="http://localhost:4000/start-to-read-gson.html"><![CDATA[<p><br />
+<p>Oh, of course I should read a line of gson code and a line of a book before going to sleep. <br /></p>
+
+<p>No matter how upset I am, I have to study.</p>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[I am very upset. Because one square of my github lawn became empty.]]></summary></entry><entry><title type="html">start to read gson</title><link href="http://localhost:4000/start-to-read-gson.html" rel="alternate" type="text/html" title="start to read gson" /><published>2022-12-20T22:34:01+09:00</published><updated>2022-12-20T22:34:01+09:00</updated><id>http://localhost:4000/start-to-read-gson</id><content type="html" xml:base="http://localhost:4000/start-to-read-gson.html"><![CDATA[<p><br />
 Tables of contents</p>
 <ol>
   <li><code class="language-plaintext highlighter-rouge">git clone gson</code></li>
