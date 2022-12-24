@@ -1,5 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-23T02:31:55+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
-</subtitle><author><name>Inju Han</name></author><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-4.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-22T23:59:59+09:00</published><updated>2022-12-22T23:59:59+09:00</updated><id>http://localhost:4000/diary-4</id><content type="html" xml:base="http://localhost:4000/diary-4.html"><![CDATA[<p><br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-24T20:58:34+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">kiwi</title><subtitle>Kiwi is my own wiki
+</subtitle><author><name>Inju Han</name></author><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-5.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-24T20:13:17+09:00</published><updated>2022-12-24T20:13:17+09:00</updated><id>http://localhost:4000/diary-5</id><content type="html" xml:base="http://localhost:4000/diary-5.html"><![CDATA[<p><br />
+It’s Saturday! <br />
+Since I fell asleep early yesterday, I woke up early today. <br /></p>
+
+<p>I love weekend morning because it’s calm, bright. <br />
+Most of all, If I wake up early on weekend morning, <br />
+it makes me proud myself because I think it’s a good start. <br /></p>
+
+<p>As you can see from my list, I didn’t write any post yesterday.<br />
+It also means I didn’t study yesterday. <br /></p>
+
+<p>So, as soon as I woke up in the morning, I sat down at my desk. <br />
+I read a book about SQL, taking notes for an hour. <br />
+After dinner, I solve the problem to prepare for coding test. <br /></p>
+
+<p>I think you might think my weekend is too ordinary. <br />
+Cause there is Christmas in this weekend, I feel delightful, <br />
+but that’s all. <br /></p>
+
+<p>I know I have to study on Christmas, New Year’s Day, and public holidays. 
+Why? Because I always wish better me. <br /></p>
+
+<p>I know that if I wrote this in Korean, <br />
+it would be much longer and more expressive. <br /></p>
+
+<p>But since I’m not good at English, even if any problem will arise, <br />
+I can give an excuse that I did not know how to express it in English.
+So I’m writing this in English. <br /></p>
+
+<p>I want to be fluent to English, too. 
+However, I know the priority of study related to software engineering is higher than English. <br /></p>
+
+<p>When will I be able to write in English without a translator? <br /></p>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[It’s Saturday! Since I fell asleep early yesterday, I woke up early today.]]></summary></entry><entry><title type="html">Today’s me</title><link href="http://localhost:4000/diary-4.html" rel="alternate" type="text/html" title="Today’s me" /><published>2022-12-22T23:59:59+09:00</published><updated>2022-12-22T23:59:59+09:00</updated><id>http://localhost:4000/diary-4</id><content type="html" xml:base="http://localhost:4000/diary-4.html"><![CDATA[<p><br />
 지하철 배차 간격이 길어지는 평일 밤에는 퇴근이 참 오래 걸린다. <br />
 오늘은 팀 회식이어서 내 목표 중 하나를 지키지 못했지만 그래도 잘 빠져나왔다. <br /></p>
 
@@ -215,23 +247,7 @@ you know me or not, please watch me.</p>
   <li>Writing any post per a day</li>
   <li>Getting off work at 7</li>
   <li>Listening to economics podcasts on my commute</li>
-</ul>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[Finally. Here is my own place. I am delightful to find theme fits me.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-12-19T22:23:01+09:00</published><updated>2022-12-19T22:23:01+09:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Inju Han</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Welcome to Kiwi!</title><link href="http://localhost:4000/welcome-to-kiwi.html" rel="alternate" type="text/html" title="Welcome to Kiwi!" /><published>2022-12-19T22:23:01+09:00</published><updated>2022-12-19T22:23:01+09:00</updated><id>http://localhost:4000/welcome-to-kiwi</id><content type="html" xml:base="http://localhost:4000/welcome-to-kiwi.html"><![CDATA[<p><br />
+</ul>]]></content><author><name>Inju Han</name></author><category term="diary" /><summary type="html"><![CDATA[Finally. Here is my own place. I am delightful to find theme fits me.]]></summary></entry><entry><title type="html">Welcome to Kiwi!</title><link href="http://localhost:4000/welcome-to-kiwi.html" rel="alternate" type="text/html" title="Welcome to Kiwi!" /><published>2022-12-19T22:23:01+09:00</published><updated>2022-12-19T22:23:01+09:00</updated><id>http://localhost:4000/welcome-to-kiwi</id><content type="html" xml:base="http://localhost:4000/welcome-to-kiwi.html"><![CDATA[<p><br />
 <code class="language-plaintext highlighter-rouge">Kiwi</code></p>
 
 <ul>
@@ -248,4 +264,20 @@ you know me or not, please watch me.</p>
 
 <h4>3. planner</h4>
 
-<h4>4. note</h4>]]></content><author><name>Inju Han</name></author><category term="kiwi" /><summary type="html"><![CDATA[Kiwi]]></summary></entry></feed>
+<h4>4. note</h4>]]></content><author><name>Inju Han</name></author><category term="kiwi" /><summary type="html"><![CDATA[Kiwi]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-12-19T22:23:01+09:00</published><updated>2022-12-19T22:23:01+09:00</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Inju Han</name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
